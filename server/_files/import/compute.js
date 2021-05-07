@@ -15,7 +15,7 @@ var computeProducts = () => {
       return
     } else {
 
-      products.map((product) => {
+      products.map((product, p) => {
 
         //QUERY FOR REVIEWS PER PRODUCT
         var queryReviews = `SELECT * FROM reviews WHERE product_id = ${product.id}`;
@@ -99,7 +99,8 @@ var computeProducts = () => {
                           console.error(err)
                           return
                         } else {
-                          console.log('update product done')
+                          console.log(p)
+                          if (p === products.length -1) console.log('update product done')
                         } // update product else
 
                       }); // update product query

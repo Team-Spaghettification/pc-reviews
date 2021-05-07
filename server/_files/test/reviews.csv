@@ -1,8 +1,8 @@
 id,product_id,rating,date,summary,body,recommend,reported,reviewer_name,reviewer_email,response,helpfulness
-1,1,5,"2019-01-01","This product was great!","I really did or did not like this product based on whether it was sustainably sourced.  Then I found out that its made from nothing at all.",true,false,"funtime","first.last@gmail.com",,8
-2,1,4,"2019-01-11","This product was ok!","I really did not like this product solely because I am tiny and do not fit into it.",false,false,"mymainstreammother","first.last@gmail.com",,2
-3,2,4,"2019-06-23","I am liking these glasses","They are very dark.  But that's good because I'm in very sunny spots",true,false,"bigbrotherbenjamin","first.last@gmail.com","Glad you're enjoying the product!",5
-4,2,4,"2019-03-12","They look good on me","I so stylish and just my aesthetic.",true,false,"fashionperson","first.last@gmail.com",,1
-5,2,3,"2019-04-14","I'm enjoying wearing these shades","Comfortable and practical.",true,false,"shortandsweeet","first.last@gmail.com",,5
-6,2,5,"2019-06-16","I'm not a fan!","I don't like them",false,false,"negativity","first.last@gmail.com","Sorry to hear. Is there anything in particular you don't like?",0
-7,2,2,"2019-05-23","This product was ok!","They're fine but I wouldn't buy again.",false,false,"anyone","first.last@gmail.com",,0
+1,1,5,1/1/2019,This product was great!,I really did or did not like this product based on whether it was sustainably sourced.  Then I found out that its made from nothing at all.,TRUE,FALSE,funtime,first.last@gmail.com,,8
+2,1,4,1/11/2019,This product was ok!,I really did not like this product solely because I am tiny and do not fit into it.,FALSE,FALSE,mymainstreammother,first.last@gmail.com,,2
+3,2,4,6/23/2019,I am liking these glasses,They are very dark.  But that's good because I'm in very sunny spots,TRUE,FALSE,bigbrotherbenjamin,first.last@gmail.com,Glad you're enjoying the product!,5
+4,2,4,3/12/2019,They look good on me,I so stylish and just my aesthetic.,TRUE,FALSE,fashionperson,first.last@gmail.com,,1
+5,2,3,4/14/2019,I'm enjoying wearing these shades,Comfortable and practical.,TRUE,FALSE,shortandsweeet,first.last@gmail.com,,5
+6,2,5,6/16/2019,I'm not a fan!,I don't like them,FALSE,FALSE,negativity,first.last@gmail.com,Sorry to hear. Is there anything in particular you don't like?,0
+7,2,2,5/23/2019,This product was ok!,They're fine but I wouldn't buy again.,FALSE,FALSE,anyone,first.last@gmail.com,,0
