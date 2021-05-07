@@ -36,7 +36,7 @@ CREATE TABLE reviews (
   product_id      INT unsigned NOT NULL,
   rating          INT unsigned,
   date            VARCHAR(30) NOT NULL,
-  summary         VARCHAR(60),
+  summary         VARCHAR(100),
   body            VARCHAR(1000),
   recommend       BOOLEAN NOT NULL,
   reported        BOOLEAN DEFAULT false,
