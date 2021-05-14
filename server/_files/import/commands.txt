@@ -1,0 +1,13 @@
+LOAD DATA local INFILE '/Users/rrchow/Documents/immersive/sdc/pc-reviews/server/_files/clean/cleanreal/products_computed.csv' INTO TABLE products FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA local INFILE '/Users/rrchow/Documents/immersive/sdc/pc-reviews/server/_files/clean/cleanreal/characteristics_clean.csv' INTO TABLE characteristics FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA local INFILE '/Users/rrchow/Documents/immersive/sdc/pc-reviews/server/_files/clean/cleanreal/reviews_clean.csv' INTO TABLE reviews FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA local INFILE '/Users/rrchow/Documents/immersive/sdc/pc-reviews/server/_files/clean/cleanreal/characteristics_reviews_clean.csv' INTO TABLE characteristics_reviews FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA local INFILE '/Users/rrchow/Documents/immersive/sdc/pc-reviews/server/_files/clean/cleanreal/photos_reviews_clean.csv' INTO TABLE photos_reviews FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+
+    // "loadchar": "node server/_files/import/characteristics.js",
+    // "loadreview": "node server/_files/import/review.js",
+    // "loadcharrev": "node server/_files/import/characteristics_reviews.js",
+    // "loadphotos": "node server/_files/import/photos_reviews.js",
+    // "loadproducts": "node server/_files/import/products.js",
+    // "compute": "node server/_files/import/compute.js",
+    // "erase": "mysql -u root < server/database/schema.sql"

@@ -2,10 +2,7 @@
   "scripts": {
     "dev": "nodemon server/index.js",
     "start": "node server/index.js",
-    "mysql": "mysql -u student -pstudent",
-    "load": "node server/_files/import/review.js",
-    "compute": "node server/_files/import/compute.js",
-    "erase": "mysql -u root < server/database/schema.sql"
+    "mysql": "mysql -u student -pstudent"
   },
   "dependencies": {
     "bluebird": "^3.7.2",

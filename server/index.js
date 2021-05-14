@@ -4,14 +4,6 @@
 const controller = require('./controllers/index.js');
 const bodyParser = require('body-parser');
 const express = require('express');
-const _ = require('underscore');
-const Promise = require('bluebird');
-const moment = require('moment');
-
-const csv = require('csv-parser');
-const fs = require('fs');
-var db = require('./database/index.js');
-Promise.promisifyAll(db);
 
 let app = express();
 
@@ -22,8 +14,11 @@ app.use(bodyParser.json());
  * Requests
  ------------*/
 
-// app.get('/cows', controller.get);
-// app.post('/cows', controller.post);
+app.get('/reviews', controller.getReviews);
+app.get('/reviews/meta', controller.getMeta);
+app.put('/reviews/:review_id/report', controller.report)
+app.put('/reviews/:review_id/helpful', controller.helpful)
+app.post('/reviews', controller.post)
 
 /**--------------
  * Server Running
